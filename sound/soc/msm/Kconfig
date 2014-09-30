@@ -257,6 +257,7 @@ config SND_SOC_MSM8X16
 	select DOLBY_DAP
     #John.Xu add for ts4621 2014.10.24
 	select SND_SOC_TS4621
+	select SND_HWDEP
 	help
 	 To add support for SoC audio on MSM8X16.
 	 This will enable sound soc drivers which
